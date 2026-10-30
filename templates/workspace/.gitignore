@@ -1,0 +1,17 @@
+# Sensitive originals never reach git. Only the README that explains the folder is tracked.
+private/*
+!private/README.md
+
+# Secrets
+.env
+.env.*
+
+# Engine runtime data (databases, caches, tokens). Engines write here; git never sees it.
+data/
+
+# Tooling noise
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.obsidian/

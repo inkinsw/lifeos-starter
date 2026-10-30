@@ -1,0 +1,2 @@
+# LF everywhere, so scripts behave the same on Windows and macOS.
+* text=auto eol=lf
