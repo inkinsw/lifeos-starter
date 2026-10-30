@@ -48,6 +48,9 @@ git clone --depth 1 https://github.com/inkinsw/lifeos-starter <staging-dir>
 logged in to GitHub yet. Ask the user to run `gh auth login` (GitHub's CLI; install it first if missing)
 and finish the browser step, then retry with `gh repo clone inkinsw/lifeos-starter <staging-dir>`.
 
+- **On Windows, keep the staging path short** (for example `%TEMP%\lifeos-starter`): a deeply nested
+  temp folder can push file paths past Windows' 260-character limit and fail the clone with "Filename too
+  long". If it still fails, retry with `git -c core.longpaths=true clone ...`.
 - Never clone over the user's folder. Never personalize the staging clone.
 - Record the staging path; later stages read their prompts from it.
 - If the repository was cloned directly into a folder meant to become the workspace, stop, move the clone

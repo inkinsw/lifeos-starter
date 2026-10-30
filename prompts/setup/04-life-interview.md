@@ -13,6 +13,9 @@ and the Working With Me rules in `AGENTS.md`. Keep it a conversation, not a form
 - **Follow up once** when an answer is vague and the vagueness matters ("what would that look like by
   March?"). Then move on.
 - **Never infer.** A skipped question becomes `UNKNOWN`.
+- **Other people:** that someone is part of the user's life is fine in the wiki ("builds games with my
+  brother"). Details about them (contact info, health, conflicts, things told in confidence) go to
+  `private/people.md`. Exact money figures go to `private/` too unless the user says the wiki is fine.
 - **If the user already answered** some of this in their first message, use it and ask only what's left.
 
 ## Round 1: who you are
@@ -47,6 +50,8 @@ Before writing, show a short summary of what goes where and ask "anything wrong 
 
 - `wiki/identity.md`: answers 1 and 2, answer 3 as what they're building toward, and answer 8 (or a
   pointer to a file in `private/` if they chose that).
+- `wiki/life.md`: the weekly routine from answer 2 under "Routine", and any standing fact the user
+  volunteered (a job, a savings goal) under its section. Everything else stays `UNKNOWN`.
 - `wiki/values.md`: answers 6 and 7, and a first line under "How this page changed".
 - `wiki/goals.md`: answers 4 and 5.
 - The Working With Me rules (written into `AGENTS.md` in Stage 6): answers 9 to 12, one bullet each, in

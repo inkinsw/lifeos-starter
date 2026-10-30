@@ -15,8 +15,8 @@
 
 ## Commit and clean up
 
-1. Run `python scripts/wrap.py --all` to commit setup's last changes (the tree holds only setup's work at
-   this point).
+1. Run `python scripts/wrap.py --all` to commit anything setup left uncommitted (the tree holds only
+   setup's work at this point). "nothing to commit" is fine: it means every stage already committed.
 2. Remove the staging clone. Confirm it is gone and that nothing in the workspace points at it.
 3. Final message: the workspace path, the recall score, the life areas created, and one suggested first
    thing to say tomorrow.

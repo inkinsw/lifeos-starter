@@ -17,8 +17,8 @@ changes**.
 
 8 to 10 questions, numbered:
 
-- **5 or 6 durable facts**, one each from `identity.md`, `values.md`, `life.md`, `goals.md`, and a domain
-  page (e.g. "What am I working toward in the next three months?").
+- **5 or 6 durable facts**, one each from `identity.md`, `values.md`, `goals.md`, and, where they hold
+  anything yet, `life.md` and a domain page (e.g. "What am I working toward in the next three months?").
 - **2 routing questions:** "Where does a purchase I mention in passing get written?" and "Which files do
   you read at the start of a session?"
 - **1 rule** from Working With Me.
