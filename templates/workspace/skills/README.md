@@ -11,5 +11,7 @@ skills/grill-me/SKILL.md and do that".
 | `roast` | You want a brutal second opinion before committing to an idea: five critics, one GO / RESHAPE / KILL verdict, saved to `roasts/`. |
 | `session-handoff` | You're about to clear the chat and want the next session to pick up exactly where this one stopped. |
 
-These three came from the LifeOS this starter was built from. Add your own as you find yourself repeating
-a procedure: that is "convert discipline into mechanism" applied to how you work.
+These three came from the LifeOS this starter was built from. `grill-me` is adapted from Matt Pocock's
+skills (github.com/mattpocock/skills, MIT); `roast` and `session-handoff` are adapted from community
+skills of the same names (MIT-licensed collections). Add your own as you find yourself repeating a
+procedure: that is "convert discipline into mechanism" applied to how you work.

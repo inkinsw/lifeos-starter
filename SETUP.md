@@ -44,8 +44,8 @@ creates (for example under the system temp folder):
 git clone --depth 1 https://github.com/inkinsw/lifeos-starter <staging-dir>
 ```
 
-**If the clone fails with an authentication error,** the repository is private and this computer is not
-logged in to GitHub yet. Ask the user to run `gh auth login` (GitHub's CLI; install it first if missing)
+**If the clone fails with an authentication error,** the repository has been made private and this
+computer is not logged in to GitHub yet. Ask the user to run `gh auth login` (GitHub's CLI; install it first if missing)
 and finish the browser step, then retry with `gh repo clone inkinsw/lifeos-starter <staging-dir>`.
 
 - **On Windows, keep the staging path short** (for example `%TEMP%\lifeos-starter`): a deeply nested

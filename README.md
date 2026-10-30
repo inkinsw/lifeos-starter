@@ -17,9 +17,7 @@ a folder you choose, interviews you for about 15 minutes, and tests that a fresh
    - **Codex** (OpenAI). Install:
      - macOS: `curl -fsSL https://chatgpt.com/codex/install.sh | sh`
      - Windows: `powershell -ExecutionPolicy ByPass -c "irm https://chatgpt.com/codex/install.ps1 | iex"`
-2. **While this repository is private:** accept the GitHub invite (check your email or
-   github.com/notifications), then log in once on your computer with `gh auth login`. (No `gh`? Your
-   agent can install the GitHub CLI for you.)
+2. **git and Python 3.10+.** Setup checks for both and offers to install whatever is missing.
 
 ## Setup: one prompt
 
@@ -88,5 +86,11 @@ starter is built for a workspace of projects; this one adds the life layer (dail
 values pages, life areas, receipts, the promotion gradient, a recurring recall test) from the LifeOS it
 was built from. The memory pattern itself traces to Andrej Karpathy's
 [LLM wiki idea](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).
+
+Skills: `grill-me` is adapted from Matt Pocock's [skills](https://github.com/mattpocock/skills) (MIT).
+`roast` and `session-handoff` are adapted from community skills of the same names; versions of both
+appear in MIT-licensed collections such as
+[Claude_Code_Boilerplate_Framework](https://github.com/Roentek/Claude_Code_Boilerplate_Framework) and
+[claude-code-mods](https://github.com/nateherkai/claude-code-mods).
 
 MIT licensed; see `LICENSE`.
